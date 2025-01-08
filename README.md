@@ -27,21 +27,21 @@ The approach leverages:
   - `model.py`: Implements the TAOD-Net architecture.
   - `utils.py`: Utility functions for data preprocessing and model operations.
 - `experiments/`
-  - `binary.py`: Conducts baseline method.
-  - `pretraining.py`: Handles the pretraining phase of TAOD-Net.
-  - `model_run.py`: Script for training, validating, and testing the TAOD-Net model.
+  - `binary.py`: Conducts baseline method for multi-label classification.
+  - `pretraining.py`: Handles the pretraining phase of TAOD-Net with multi-label loss.
+  - `model_run.py`: Script for training, validating, and testing the TAOD-Net model and benchmarks.
 
 ## Usage
 ### Baseline
 ```bash
 python binary.py --base 'ViT' --mode 0 --symptom 0
-python binary.py --base 'ViT' --mode 7 --symptom 0
+python binary.py --base 'ViT' --mode 1 --symptom 0
 ```
 
 ### Pretraining
 ```bash
 python pretraining.py --base 'ViT' --mode 0 
-python pretraining.py --base 'ViT' --mode 7 
+python pretraining.py --base 'ViT' --mode 1 
 ```
 
 ### Training and Evaluation
