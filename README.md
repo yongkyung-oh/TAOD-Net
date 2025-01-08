@@ -8,7 +8,7 @@ The approach leverages:
 - **Multi-label classification** to detect signs linked to the Clinical Activity Score (CAS).
 - **Vision Transformers (ViTs)** for state-of-the-art performance in medical image classification.
 
-![overview](assets\overview_new.png)
+![overview](assets/overview_new.png)
 
 ## Features
 - Detects five inflammatory signs linked to CAS:
