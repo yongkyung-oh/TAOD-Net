@@ -195,8 +195,8 @@ def model_run(setting, base, loss, mode, symptom_idx, symptom_name):
         model = Prediction_model(setting, base).to(device)
         model.model.load_state_dict(torch.load(os.path.join('pretraining', base, '_'.join([str(mode), str(k), '.pth']))), strict=False)
 
-        # Set all parameters trainable
-        for param in model.parameters():
+        # Set fc parameters trainable
+        for param in model.fc.parameters():
             param.grad = None
             param.requires_grad = True
             
