@@ -1,5 +1,5 @@
 # TAOD-Net: Automated Detection and Analysis of Thyroid-Associated Orbitopathy
-This repository contains the PyTorch implementation for the paper TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery
+This repository contains the PyTorch implementation for the paper [TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery](https://www.sciencedirect.com/science/article/pii/S0360835225001706?via%3Dihub).
 
 > Oh, Y., Koh, G., Kwak, J., Shin, K., Kim, G.S., Lee, M.J., Choung, H., Kim, N., Moon, J.H. and Kim, S. (2025). TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery. Computers & Industrial Engineering, 111024.
 
