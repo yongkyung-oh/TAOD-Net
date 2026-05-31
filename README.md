@@ -68,8 +68,8 @@ python model_run.py --setting 'binary' --base 'ViT' --loss 'CAUCM' --symptom 0 -
 - Preprocessed images are automatically cropped based on anatomical landmarks.
 
 ## Ethic Statement
-We wish to appreciate to Thyroscope Inc. and Seoul National University Bundang Hospital (SNUBH) for their generous provision of data access and the extension of the Institutional Review Board (IRB) license to our research team. This study received approval from the SNUBH Institutional Review Board (IRB\# B-2109-709-101). Additionally, the requirement for informed consent was exempted by the same board, given that the study's methodology primarily involved a retrospective analysis of medical records and pre-collected facial images. 
-All experiments were conducted in compliance with relevant guidelines and regulations. Prior to external transfer, all images and clinical data were meticulously anonymized to ensure privacy protection. Furthermore, the procedure for data transfer received authorization from the SNUBH Data Review Board (DRB\# 2021-02-01).
+We thank Thyroscope Inc. and Seoul National University Bundang Hospital (SNUBH) for providing data access and extending the Institutional Review Board (IRB) license to our research team. This study received approval from the SNUBH Institutional Review Board (IRB\# B-2109-709-101). Additionally, the requirement for informed consent was exempted by the same board, given that the study's methodology primarily involved a retrospective analysis of medical records and pre-collected facial images. 
+All experiments were conducted in compliance with relevant guidelines and regulations. Prior to external transfer, all images and clinical data were anonymized to ensure privacy protection. Furthermore, the procedure for data transfer received authorization from the SNUBH Data Review Board (DRB\# 2021-02-01).
 
 ## Citation
 If you use TAOD-Net in your research, please cite:
