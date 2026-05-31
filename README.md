@@ -1,7 +1,7 @@
 # TAOD-Net: Automated Detection and Analysis of Thyroid-Associated Orbitopathy
 This repository contains the PyTorch implementation for the paper [TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery](https://www.sciencedirect.com/science/article/pii/S0360835225001706?via%3Dihub).
 
-> Oh, Y., Koh, G., Kwak, J., Shin, K., Kim, G.S., Lee, M.J., Choung, H., Kim, N., Moon, J.H. and Kim, S. (2025). TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery. Computers & Industrial Engineering, 111024.
+> Oh, Y., Koh, G., Kwak, J., Shin, K., Kim, G.S., Lee, M.J., Choung, H., Kim, N., Moon, J.H., & Kim, S. (2025). TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery. Computers & Industrial Engineering, 203, 111024. https://doi.org/10.1016/j.cie.2025.111024
 
 ## Overview
 TAOD-Net (Thyroid-Associated Orbitopathy Detection Network) is an advanced transformer-based system designed to automate the detection of five key inflammatory signs associated with Thyroid-Associated Orbitopathy (TAO). This model aims to standardize and improve TAO diagnosis using patient facial images.
@@ -75,11 +75,14 @@ All experiments were conducted in compliance with relevant guidelines and regula
 If you use TAOD-Net in your research, please cite:
 ```bibtex
 @article{oh2025taod,
-  title={TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery},
-  author={Oh, YongKyung and Koh, Giheon and Kwak, Jiin and Shin, Kyubo and Kim, Gi-Soo and Lee, Min Joung and Choung, Hokyung and Kim, Namju and Moon, Jae Hoon and Kim, Sungil},
-  journal={Computers \& Industrial Engineering},
-  pages={111024},
-  year={2025},
-  publisher={Elsevier}
+  title     = {TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery},
+  author    = {Oh, YongKyung and Koh, Giheon and Kwak, Jiin and Shin, Kyubo and Kim, Gi-Soo and Lee, Min Joung and Choung, Hokyung and Kim, Namju and Moon, Jae Hoon and Kim, Sungil},
+  journal   = {Computers \& Industrial Engineering},
+  volume    = {203},
+  pages     = {111024},
+  year      = {2025},
+  publisher = {Elsevier BV},
+  doi       = {10.1016/j.cie.2025.111024},
+  url       = {https://doi.org/10.1016/j.cie.2025.111024}
 }
 ```
