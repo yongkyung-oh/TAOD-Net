@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: "If you use this software or method, please cite the paper below."
+title: "TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery"
+type: software
+authors:
+  - family-names: Oh
+    given-names: YongKyung
+    orcid: "https://orcid.org/0000-0002-8027-3433"
+  - family-names: Koh
+    given-names: Giheon
+  - family-names: Kwak
+    given-names: Jiin
+  - family-names: Shin
+    given-names: Kyubo
+    orcid: "https://orcid.org/0000-0002-0329-3166"
+  - family-names: Kim
+    given-names: Gi-Soo
+    orcid: "https://orcid.org/0000-0002-2983-2367"
+  - family-names: Lee
+    given-names: Min Joung
+  - family-names: Choung
+    given-names: Hokyung
+  - family-names: Kim
+    given-names: Namju
+  - family-names: Moon
+    given-names: Jae Hoon
+  - family-names: Kim
+    given-names: Sungil
+    orcid: "https://orcid.org/0000-0003-0208-4378"
+repository-code: "https://github.com/yongkyung-oh/TAOD-Net"
+license: MIT
+preferred-citation:
+  type: article
+  title: "TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery"
+  authors:
+    - family-names: Oh
+      given-names: YongKyung
+      orcid: "https://orcid.org/0000-0002-8027-3433"
+    - family-names: Koh
+      given-names: Giheon
+    - family-names: Kwak
+      given-names: Jiin
+    - family-names: Shin
+      given-names: Kyubo
+      orcid: "https://orcid.org/0000-0002-0329-3166"
+    - family-names: Kim
+      given-names: Gi-Soo
+      orcid: "https://orcid.org/0000-0002-2983-2367"
+    - family-names: Lee
+      given-names: Min Joung
+    - family-names: Choung
+      given-names: Hokyung
+    - family-names: Kim
+      given-names: Namju
+    - family-names: Moon
+      given-names: Jae Hoon
+    - family-names: Kim
+      given-names: Sungil
+      orcid: "https://orcid.org/0000-0003-0208-4378"
+  journal: "Computers & Industrial Engineering"
+  volume: "203"
+  start: "111024"
+  year: 2025
+  month: 5
+  publisher:
+    name: "Elsevier BV"
+  issn: "0360-8352"
+  doi: 10.1016/j.cie.2025.111024
+  url: "https://doi.org/10.1016/j.cie.2025.111024"
