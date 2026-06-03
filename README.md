@@ -74,7 +74,7 @@ All experiments were conducted in compliance with relevant guidelines and regula
 ## Citation
 If you use TAOD-Net in your research, please cite:
 ```bibtex
-@article{oh2025taod,
+@article{oh_taod-net_2025,
   title     = {TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery},
   author    = {Oh, YongKyung and Koh, Giheon and Kwak, Jiin and Shin, Kyubo and Kim, Gi-Soo and Lee, Min Joung and Choung, Hokyung and Kim, Namju and Moon, Jae Hoon and Kim, Sungil},
   journal   = {Computers \& Industrial Engineering},
