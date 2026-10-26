@@ -1,0 +1,5 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/overview_new.png
