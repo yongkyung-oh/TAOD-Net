@@ -3,6 +3,8 @@ This repository contains the PyTorch implementation for the paper [TAOD-Net: Aut
 
 > Oh, Y., Koh, G., Kwak, J., Shin, K., Kim, G.S., Lee, M.J., Choung, H., Kim, N., Moon, J.H., & Kim, S. (2025). TAOD-Net: Automated detection and analysis of thyroid-associated orbitopathy in facial imagery. Computers & Industrial Engineering, 203, 111024. https://doi.org/10.1016/j.cie.2025.111024
 
+**Author page:** [YongKyung Oh](https://yongkyung-oh.github.io/) · [ORCID](https://orcid.org/0000-0002-8027-3433) · [Scientific Inference Lab publications](https://scientific-inference-lab.github.io/publications/#oh_taod-net_2025)
+
 ## Overview
 TAOD-Net (Thyroid-Associated Orbitopathy Detection Network) is an advanced transformer-based system designed to automate the detection of five key inflammatory signs associated with Thyroid-Associated Orbitopathy (TAO). This model aims to standardize and improve TAO diagnosis using patient facial images.
 
