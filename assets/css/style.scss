@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Overrides for the default Primer theme (WCAG 2.x AA).
+// No theme is declared in _config.yml, so GitHub Pages sets
+// site.theme to jekyll-theme-primer.
+
+// Footer link: underline it so it is not marked by color alone (1.4.1).
+.footer a {
+  text-decoration: underline;
+}
+
+// Code highlighting (rouge) on the #f6f8fa code background (1.4.3).
+// Same hues as the theme, darker values.
+.highlight {
+  .c,
+  .c1,
+  .cd,
+  .cm {
+    color: #717060; // theme #999988
+  }
+
+  .bp,
+  .cp,
+  .cs {
+    color: #6f6f6f; // theme #999999
+  }
+
+  .il,
+  .m,
+  .mb,
+  .mf,
+  .mh,
+  .mi,
+  .mo,
+  .mx {
+    color: #007c7d; // theme #009999
+  }
+
+  .na,
+  .no,
+  .nv,
+  .vc,
+  .vg,
+  .vi {
+    color: #006d6d; // theme #008080
+  }
+}
