@@ -6,12 +6,12 @@ This repository contains the PyTorch implementation for the paper [TAOD-Net: Aut
 **Author page:** [YongKyung Oh](https://yongkyung-oh.github.io/) · [ORCID](https://orcid.org/0000-0002-8027-3433) · [Scientific Inference Lab publications](https://scientific-inference-lab.github.io/publications/#oh_taod-net_2025)
 
 ## Overview
-TAOD-Net (Thyroid-Associated Orbitopathy Detection Network) is an advanced transformer-based system designed to automate the detection of five key inflammatory signs associated with Thyroid-Associated Orbitopathy (TAO). This model aims to standardize and improve TAO diagnosis using patient facial images.
+TAOD-Net (Thyroid-Associated Orbitopathy Detection Network) classifies five inflammatory signs associated with Thyroid-Associated Orbitopathy (TAO) from patient facial images.
 
-The approach leverages:
-- **Domain-knowledge-based image cropping** to improve diagnostic accuracy.
+The approach uses:
+- **Clinically guided image cropping** to select regions in facial images.
 - **Multi-label classification** to detect signs linked to the Clinical Activity Score (CAS).
-- **Vision Transformers (ViTs)** for state-of-the-art performance in medical image classification.
+- **Vision Transformers (ViTs)** for image classification.
 
 ![overview](assets/overview_new.png)
 
@@ -37,6 +37,17 @@ The approach leverages:
   - `model_run.py`: Script for training, validating, and testing the TAOD-Net model and benchmarks.
 
 ## Usage
+
+### Requirements
+- pandas 1.4 or earlier.
+- PyTorch, torchvision, [timm](https://github.com/huggingface/pytorch-image-models), OpenCV, scikit-image, scikit-learn, matplotlib and tqdm.
+
+Run the following commands from the `experiments/` directory, starting at the repository root:
+
+```bash
+cd experiments
+```
+
 ### Baseline
 ```bash
 python binary.py --base 'ViT' --mode 0 --symptom 0
@@ -45,8 +56,10 @@ python binary.py --base 'ViT' --mode 1 --symptom 0
 
 ### Pretraining
 ```bash
-python pretraining.py --base 'ViT' --mode 0 
-python pretraining.py --base 'ViT' --mode 1 
+python pretraining.py --base 'ViT' --mode 7
+python pretraining.py --base 'ViT' --mode 1
+python pretraining.py --base 'ViT' --mode 2
+python pretraining.py --base 'ViT' --mode 0
 ```
 
 ### Training and Evaluation
@@ -69,8 +82,8 @@ python model_run.py --setting 'binary' --base 'ViT' --loss 'CAUCM' --symptom 0 -
 - Ethical approval and anonymization processes were adhered to for data privacy.
 - Preprocessed images are automatically cropped based on anatomical landmarks.
 
-## Ethic Statement
-We thank Thyroscope Inc. and Seoul National University Bundang Hospital (SNUBH) for providing data access and extending the Institutional Review Board (IRB) license to our research team. This study received approval from the SNUBH Institutional Review Board (IRB\# B-2109-709-101). Additionally, the requirement for informed consent was exempted by the same board, given that the study's methodology primarily involved a retrospective analysis of medical records and pre-collected facial images. 
+## Ethics Statement
+We thank Thyroscope Inc. and Seoul National University Bundang Hospital (SNUBH) for providing data access to our research team. This study received approval from the SNUBH Institutional Review Board (IRB\# B-2109-709-101). Additionally, the requirement for informed consent was exempted by the same board, given that the study's methodology primarily involved a retrospective analysis of medical records and pre-collected facial images.
 All experiments were conducted in compliance with relevant guidelines and regulations. Prior to external transfer, all images and clinical data were anonymized to ensure privacy protection. Furthermore, the procedure for data transfer received authorization from the SNUBH Data Review Board (DRB\# 2021-02-01).
 
 ## Citation
