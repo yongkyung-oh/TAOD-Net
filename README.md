@@ -29,6 +29,7 @@ The approach uses:
 ## Directory Structure
 - `src/`
   - `losses.py`: Defines custom loss functions.
+  - `libauc/`: AUC losses and optimizers based on [LibAUC](https://libauc.org/) 1.2.0.
   - `model.py`: Implements the TAOD-Net architecture.
   - `utils.py`: Utility functions for data preprocessing and model operations.
 - `experiments/`

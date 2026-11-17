@@ -128,7 +128,6 @@ def model_run(base, mode):
         # load cv
         test_split = splits_list[k]
         train_idx = [idx for idx in labels.dropna().index if idx not in test_split]
-        pid_train, _ = train_test_split(pid_train, test_size=100/920)
         
         # k folds
         pid_train = train_idx
